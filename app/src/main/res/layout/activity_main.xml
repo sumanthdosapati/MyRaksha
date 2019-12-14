@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lout"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:visibility="visible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trustee"
+        android:layout_marginTop="45dp"
+        android:textSize="20dp"
+        android:text="My contact"
+        android:visibility="invisible"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/button"
+        android:layout_centerInParent="true"
+        android:src="@drawable/helpbutton"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Tap on help to send your location to your trustee"/>
+
+
+</RelativeLayout>

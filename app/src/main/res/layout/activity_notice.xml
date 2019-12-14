@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notice"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Important Notice"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="This application is designed in order to help the people in the time of emergency as fast as possible. This application works even without internet but we are not responsible if there is no Network signal in your location or your sim card do not have sufficient balance."
+        android:layout_marginTop="75dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:id="@+id/alright"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:text="ALRIGHT"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

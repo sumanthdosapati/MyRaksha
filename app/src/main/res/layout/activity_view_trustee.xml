@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_centerInParent="true"
+    tools:context=".ViewTrustee">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:layout_margin="1dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d1"
+        android:text="My Trustee :  "
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showname"
+        android:textAllCaps="true"
+        android:text="My Trustee"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/d1"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d3"
+        android:text="Number  :   "
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shownum"
+        android:text="**********"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/d1"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="25dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
